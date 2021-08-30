@@ -1,0 +1,70 @@
+main {
+  margin-top: 35vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main div {
+  margin-bottom: 10px;
+  position: relative;
+  width: 205px;
+  height: 700px;
+  background-image: var(--bg);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  float: left;
+  margin-right: 25px;
+}
+
+main div * {
+  display: none;
+}
+
+main div h2 {
+  overflow: hidden;
+  margin: 0;
+  display: inline;
+  width: 205px;
+  padding: 700px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+
+div.preview {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 650px;
+  background-color: #36393F;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+div.preview img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+div.preview h2, div.preview p {
+  padding-left: 15px;
+}

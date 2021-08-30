@@ -1,0 +1,23 @@
+footer {
+  padding: 0 30px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+footer p {
+  float: left;
+}
+
+footer button {
+  float: right;
+  margin-bottom: 25px;
+}
+
+footer span {
+  color: #7289da;
+}
